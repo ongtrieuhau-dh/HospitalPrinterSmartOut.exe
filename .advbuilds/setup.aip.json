@@ -1,0 +1,16 @@
+{
+   "MainExe": "HospitalPrinterSmartOut.exe",
+   "ProductDetail": {
+      "ProductName": "HospitalPrinterSmartOut"      
+   },
+   "AdvancedInstallerShortcut": {
+      "Name": "DHG.HospitalPrinter SmartOut",
+      "Target": "APPDIR\\HospitalPrinterSmartOut.exe",
+      "InDirectories": ["DesktopFolder", "StartMenuFolder\\DHG Pharma"],
+      "PathIcon": "LogoSmartOut.ico"
+   },
+   "IconInControlPanel": {
+      "IsSetIcon": true,
+      "PathIcon": "LogoSmartOut.ico"
+   }
+}

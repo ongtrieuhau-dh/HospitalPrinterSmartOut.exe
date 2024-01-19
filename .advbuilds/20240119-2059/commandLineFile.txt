@@ -1,0 +1,140 @@
+;aic
+SetVersion 1.24.0119.2
+SetProperty ExecuteVersion="1.24.0119.2"
+SetProperty ProductName="HospitalPrinterSmartOut"
+SetProperty Manufacturer="DHG Pharma"
+SetProperty ARPURLINFOABOUT="https://dh-his.com"
+SetProperty ARPURLUPDATEINFO="https://github.com/dh-hos"
+SetProperty ARPHELPLINK="https://github.com/dh-hos"
+SetProperty ARPHELPTELEPHONE="0988.255.863"
+SetProperty ARPCONTACT="ongtrieuhau861@gmail.com"
+SetProperty ARPCOMMENTS="ongtrieuhau861@gmail.com"
+SetOutputLocation -buildname DefaultBuild -path E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\.advbuilds\20240119-2059
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\API3.SDK.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\BarcodeLib.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\BouncyCastle.Crypto.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Bunifu.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Bunifu.UI.WinForms.BunifuButton.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Bunifu.UI.WinForms.BunifuCheckBox.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Bunifu.UI.WinForms.BunifuRadioButton.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Bunifu.UI.WinForms.BunifuTextbox.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Bunifu_UI_v1.5.3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\ChilkatDotNet4.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DataTransferLib.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.BonusSkins.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Charts.v17.1.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.CodeParser.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Data.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.DataAccess.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.DataAccess.v17.1.UI.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Diagram.v17.1.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Docs.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Office.v17.1.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Pdf.v17.1.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Pdf.v17.1.Drawing.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.PivotGrid.v17.1.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Printing.v17.1.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.RichEdit.v17.1.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Snap.v17.1.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Sparkline.v17.1.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Spreadsheet.v17.1.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Utils.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Utils.v17.1.UI.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.Xpo.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraBars.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraCharts.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraCharts.v17.1.Extensions.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraCharts.v17.1.Wizard.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraDiagram.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraEditors.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraGauges.v17.1.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraGrid.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraLayout.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraNavBar.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraPdfViewer.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraPivotGrid.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraPrinting.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraReports.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraReports.v17.1.Extensions.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraRichEdit.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraTreeList.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\DevExpress.XtraVerticalGrid.v17.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\EntityFramework.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Excel.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\fhi360.hiv.DataTransfer.Intefaces.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Google.Apis.Auth.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Google.Apis.Auth.PlatformServices.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Google.Apis.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Google.Apis.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Google.Apis.Drive.v3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Google.Apis.PlatformServices.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\HospitalPrinterSmartOut.exe" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\ICSharpCode.SharpZipLib.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Janus.Data.v3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Janus.Windows.ButtonBar.v3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Janus.Windows.CalendarCombo.v3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Janus.Windows.Common.v3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Janus.Windows.ExplorerBar.v3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Janus.Windows.FilterEditor.v3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Janus.Windows.GridEX.v3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Janus.Windows.Ribbon.v3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Janus.Windows.Schedule.v3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Janus.Windows.TimeLine.v3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Janus.Windows.UI.v3.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\LibraryApp.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\LogoSmartOut.ico" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Microsoft.CSharp.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Microsoft.Win32.TaskScheduler.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\MISA.MeInvoice.DataContract.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\MISA.MeInvoice.Lib2.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Mono.Security.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Newtonsoft.Json.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Npgsql.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.Adapter.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.AppStore.Core.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.ChilkatRR.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.Common.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.Entity.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.Entity.v.1.0.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.GLib.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.HddtVinhHuy.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.PAY.Sacombank.POSApis.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.PAY.SHB.Apis.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.PAY.ViettinBank.Admin.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.PAY.ViettinBank.Apis.Leasedline.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.PAY.ViettinBank.Apis.Net.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.PAY.ViettinBank.Crypto.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.PAY.ViettinBank.Hos.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.PAY.ViettinBank.PrintPan.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.PAY.ViettinBank.QRCode.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.Resources.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.Selenium.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.SQL.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.UpdaterNet.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.WebServices.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.XControl.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.XForms.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.XForms.v.1.0.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.XForms.v.1.1.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.XForms.v.1.2.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTH.XReports.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\OTHDrive.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\package.json" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\QRCoder.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\RestSharp.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\Roo.Exe.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\System.Management.Automation.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\System.Net.Http.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\System.Net.Http.Formatting.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\WebDriver.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\WebDriver.Support.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\xNet.dll" -overwrite always
+AddFile APPDIR "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\XtraRPT.dll" -overwrite always
+DelShortcut -name "DHG.HospitalPrinter SmartOut" -dir "DesktopFolder"
+NewShortcut -name "DHG.HospitalPrinter SmartOut" -dir "DesktopFolder" -target "APPDIR\HospitalPrinterSmartOut.exe" -icon "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\LogoSmartOut.ico"
+DelShortcut -name "DHG.HospitalPrinter SmartOut" -dir "StartMenuFolder\DHG Pharma"
+NewShortcut -name "DHG.HospitalPrinter SmartOut" -dir "StartMenuFolder\DHG Pharma" -target "APPDIR\HospitalPrinterSmartOut.exe" -icon "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\LogoSmartOut.ico"
+SetIcon -icon "E:\CLOUDCODE\github.com\o-adv\HospitalPrinterSmartOut.exe\LogoSmartOut.ico"
+Save
+Rebuild
